@@ -47,4 +47,6 @@ class TrainerControllerIntegrationTest {
         assertEquals("Ash", trainers[0].getName());
         assertEquals("Misty", trainers[1].getName());
     }
+
+
 }

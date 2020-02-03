@@ -38,7 +38,7 @@ public class TrainerController {
     }
 
     @DeleteMapping(value = "/{name}")
-    void removeTrainer(@RequestBody String name){
+    void removeTrainer(@PathVariable String name){
         this.trainerService.removeTrainer(name);
     }
 }
